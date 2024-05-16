@@ -18,7 +18,7 @@ This tool is not perfect. It errs on the side of avoiding false positives. So wh
 ## tl;dr on how it works.
 
 1. export your Apple Music library to an xml file
-1. copy your plex SQLITE to the project
+1. copy your plex SQLITE database to the project
 1. do a dry run on the script to see how well it matches your items
 1. adjust matches using the data provided from the dry run
 1. run the script to import the data
