@@ -101,6 +101,14 @@ Additionally, it will dump 3 new files into the project. These files are mapping
 - `missing_albums.json`
 - `missing_tracks.json`
 
+#### Use the generated files to create mappings
+
+Copy the generated files to the `config` directory and rename them. Then edit their values to create the mapping files.
+
+- `missing_artists.json` -> `artist_mappings.json`
+- `missing_albums.json` -> `album_mappings.json`
+- `missing_tracks.json` -> `track_mappings.json`
+
 The key of the mapping files is value from Apple Music that will be used to find it in your Plex library. Overwrite the value to be what is in your Plex library, to help with matches.
 
 For example, if your Apple Music has an artist of "Jay Z" and your Plex library has an artist of "JAY-Z", you would change the value in the mapping file to "JAY-Z".
@@ -110,16 +118,6 @@ For example, if your Apple Music has an artist of "Jay Z" and your Plex library 
 ```
 
 Now, when the script runs, it will use your edited value to find that artist/album/track in your Plex library.
-
-#### Use the generated files to create mappings
-
-Copy the generated files to the `config` directory and rename them. Then edit their values to create mappings.
-
-- `missing_artists.json` -> `artist_mappings.json`
-- `missing_albums.json` -> `album_mappings.json`
-- `missing_tracks.json` -> `track_mappings.json`
-
-Now, when you run the script again, it will use these mappings to help find matches.
 
 ##### Tips
 
