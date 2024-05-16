@@ -147,7 +147,7 @@ OK, so you've done a bunch of dry runs and you're happy with the match count. Le
    1. Copy the original to your project directory and name it `plexdb.sqlite`
 1. Run the script `script/run`
 
-OK, you've imported your old metadata into
+OK, you've imported your old metadata into your Plex database. Now you need to move it back.
 
 1. Rename your `plexdb.sqlite` back to the original name (`com.plexapp.plugins.library.db`)
 1. Move it back to where it originally was (be careful of permission issues)
