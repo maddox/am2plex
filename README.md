@@ -109,6 +109,8 @@ For example, if your Apple Music has an artist of "Jay Z" and your Plex library 
 { "Jay Z": "JAY-Z" }
 ```
 
+Now, when the script runs, it will use your edited value to find that artist/album/track in your Plex library.
+
 #### Use the generated files to create mappings
 
 Copy the generated files to the `config` directory and rename them. Then edit their values to create mappings.
