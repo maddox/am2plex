@@ -109,7 +109,7 @@ Copy the generated files to the `config` directory and rename them. Then edit th
 - `missing_albums.json` -> `album_mappings.json`
 - `missing_tracks.json` -> `track_mappings.json`
 
-The key of the mapping files is value from Apple Music that will be used to find it in your Plex library. Overwrite the value to be what is in your Plex library, to help with matches.
+The key portion of the mapping files is the value from Apple Music that will be used to find it in your Plex library. Overwrite the value to be what is in your Plex library, to help with matches.
 
 For example, if your Apple Music has an artist of "Jay Z" and your Plex library has an artist of "JAY-Z", you would change the value in the mapping file to "JAY-Z".
 
@@ -119,7 +119,7 @@ For example, if your Apple Music has an artist of "Jay Z" and your Plex library 
 
 Now, when the script runs, it will use your edited value to find that artist/album/track in your Plex library.
 
-##### Tips
+#### Tips
 
 Try fixing matches on artists first, this will go the longest way at getting more track matches. Once you have a good set of artist matches, move on to albums.
 
@@ -133,7 +133,7 @@ Here's a list of some reason you might not get a match, and what you need to loo
 - ` - Single` appended
 - `Deluxe Edition` appended to the album name
 
-You'll most likely see a ton of missing artists and albums due to the fact that your Plex library just doesn't have some of the modern music youv'e been listening to for the last few years you have been suffering through with streaming music.
+You'll most likely see a ton of missing artists and albums due to the fact that your Plex library just doesn't have some of the modern music you've been listening to for the last few years you have been suffering through with streaming music.
 
 There are many other reasons too. Just make a strong drink, open the text file in one window and your Plex library in another and get to work.
 
