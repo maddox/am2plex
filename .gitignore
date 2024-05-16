@@ -1,0 +1,9 @@
+config/apple-music.xml
+config/plexdb.sqlite
+config/plexdb.sqlite-shm
+config/plexdb.sqlite-wal
+config/com.plexapp.plugins.library.db
+missing_artists.json
+missing_albums.json
+missing_tracks.json
+notes.txt

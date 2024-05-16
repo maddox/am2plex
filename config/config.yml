@@ -1,0 +1,9 @@
+minimum_plays: 3
+minimum_skips: 2
+default_date: "2024-07-07"
+account_id: 1
+device_id: 5
+import_skips: true
+import_plays: true
+import_album_ratings: true
+import_track_ratings: true
